@@ -99,7 +99,7 @@ jason compile people.jason --pretty -o people.json
 
 ## 📚 Language Specification
 
-For full Jason language documentation, syntax, and features, see the [jason-rs documentation](https://github.com/YOUR_USERNAME/jason-rs).
+For full Jason language documentation, syntax, and features, see the [Jason-rs doumentation](https://github.com/alexandermeade/jason-rs) .
 
 ## 🔧 Options
 
@@ -121,7 +121,7 @@ For full Jason language documentation, syntax, and features, see the [jason-rs d
 
 ## 📦 Related Projects
 
-- [jason-rs](https://github.com/YOUR_USERNAME/jason-rs) - The core Jason library
+- [Jason](https://github.com/alexandermeade/jason-rs)  - The core Jason library
 
 ## 📄 License
 
