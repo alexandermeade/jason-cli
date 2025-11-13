@@ -1,6 +1,6 @@
 # Jason CLI
 
-A command-line tool for compiling [Jason](https://github.com/YOUR_USERNAME/jason-rs) files - a lightweight JSON templating tool.
+A command-line tool for compiling [Jason](https://github.com/alexandermeade/jason-rs) files - a lightweight JSON templating tool.
 
 ## ✨ Features
 
