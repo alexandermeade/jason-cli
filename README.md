@@ -1,6 +1,6 @@
 # Jason CLI
 
-A command-line tool for compiling [Jason](https://github.com/YOUR_USERNAME/jason-rs) files - a lightweight JSON templating tool.
+A command-line tool for compiling [Jason](https://github.com/YOUR_USERNAME/jason-rs) files - a Lightweight, Type Safe,JSON templating tool.
 
 ## ✨ Features
 
@@ -62,14 +62,17 @@ jason watch --help
 **Input:** `people.jason`
 
 ```jason
-Person(name, age) {
+Person :: {name: String | Number, age: Number}
+
+person(String | Number, Number) :: Person
+person(name, age) {
     name: name,
     age: age
 }
 
-main = Person(random_name()!, random_int(67)!) * 3
+names := ["alex", "jay", "ron", int(12)]
 
-out main
+out person(names pick 1, int(18, 30))*10
 ```
 
 **Compile:**
@@ -83,16 +86,44 @@ jason compile people.jason --pretty -o people.json
 ```json
 [
   {
-    "age": 41,
-    "name": "Kimberly"
+    "age": 23,
+    "name": "ron"
   },
   {
-    "age": 55,
-    "name": "Carol"
+    "age": 21,
+    "name": "jay"
   },
   {
-    "age": 14,
-    "name": "John"
+    "age": 25,
+    "name": 12
+  },
+  {
+    "age": 29,
+    "name": "jay"
+  },
+  {
+    "age": 30,
+    "name": "ron"
+  },
+  {
+    "age": 24,
+    "name": 12
+  },
+  {
+    "age": 26,
+    "name": "jay"
+  },
+  {
+    "age": 29,
+    "name": "ron"
+  },
+  {
+    "age": 25,
+    "name": "jay"
+  },
+  {
+    "age": 22,
+    "name": 12
   }
 ]
 ```
