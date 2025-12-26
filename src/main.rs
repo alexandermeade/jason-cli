@@ -6,7 +6,7 @@ use std::path::PathBuf;
 #[derive(Parser)]
 #[command(name = "jason")]
 #[command(author = "Alexander Meade")]
-#[command(version = "0.1.0")]
+#[command(version = "0.3.2")]
 #[command(about = "A simple CLI wrapper for the Jason-rs library", long_about = None)]
 struct Cli {
     #[command(subcommand)]
