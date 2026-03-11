@@ -137,6 +137,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b05b61dc5112cbb17e4b6cd61790d9845d13888356391624cbe7e41efeac1e75"
 
 [[package]]
+name = "colored"
+version = "3.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "faf9468729b8cbcea668e36183cb69d317348c2e08e994829fb56ebfdfbaac34"
+dependencies = [
+ "windows-sys",
+]
+
+[[package]]
 name = "either"
 version = "1.15.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -236,10 +245,11 @@ dependencies = [
 
 [[package]]
 name = "jason-rs"
-version = "0.3.2"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e726f6e7cb69a7acc33335f66a9ab426ede3917ad6cd0113323f91e60c5d83ea"
+checksum = "7264f8cae33b783b76d97d54e898257bdbecfc80f02965d7862e90d378abb349"
 dependencies = [
+ "colored",
  "include_dir",
  "mlua",
  "rand",
