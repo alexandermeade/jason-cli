@@ -2,14 +2,14 @@
 
 A command-line tool for compiling [Jason](https://github.com/YOUR_USERNAME/jason-rs) files - a Lightweight, Type Safe,JSON templating tool.
 
-## ✨ Features
+## Features
 
 - **Compile to JSON** - Transform `.jason` files into standard JSON
 - **Pretty Printing** - Format output with `--pretty` flag
 - **File Output** - Write directly to files or pipe to stdout
 -  **Watch Mode** - Auto-recompile on file changes during development
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - [Rust](https://rustup.rs/) (1.70 or later)
@@ -28,7 +28,7 @@ cd jason-cli
 cargo install --path .
 ```
 
-## 📖 Usage
+## Usage
 
 ### Basic Commands
 
@@ -128,11 +128,11 @@ jason compile people.jason --pretty -o people.json
 ]
 ```
 
-## 📚 Language Specification
+## Language Specification
 
 For full Jason language documentation, syntax, and features, see the [jason-rs documentation](https://github.com/YOUR_USERNAME/jason-rs).
 
-## 🔧 Options
+## Options
 
 ### `compile` Command
 
@@ -150,15 +150,15 @@ For full Jason language documentation, syntax, and features, see the [jason-rs d
 | `-p, --pretty` | Pretty print the JSON output |
 | `-h, --help` | Print help information |
 
-## 📦 Related Projects
+## Related Projects
 
 - [jason-rs](https://github.com/YOUR_USERNAME/jason-rs) - The core Jason library
 
-## 📄 License
+## License
 
 Licensed under the **Apache License 2.0**. See [LICENSE](LICENSE) for details.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
